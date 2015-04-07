@@ -1,0 +1,14 @@
+// Better Android Export
+// Nick Stamas @nickstamas
+
+#import 'library/common.js'
+
+var factors = [
+  {name: "drawable-ldpi", scale: 0.3750},
+  {name: "drawable-mdpi", scale: 0.50},
+  {name: "drawable-hdpi", scale: 0.750},
+  {name: "drawable-xhdpi", scale: 1.0},
+  {name: "drawable-xxhdpi", scale: 1.50},
+  {name: "drawable-xxxhdpi", scale: 2.0}];
+
+com.animal.exportWithFactors(factors);
