@@ -4,6 +4,7 @@
 #import 'library/common.js'
 
 var factors = [
+  {name: "drawable-ldpi", scale: 0.75},
   {name: "drawable-mdpi", scale: 1.0},
   {name: "drawable-hdpi", scale: 1.50},
   {name: "drawable-xhdpi", scale: 2.0},
